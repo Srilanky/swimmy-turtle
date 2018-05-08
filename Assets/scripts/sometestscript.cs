@@ -15,13 +15,12 @@ public class sometestscript : MonoBehaviour {
 	}
 }
 
+//namespace flappyBirdTutorial
+//{
+//publicpartialclassForm1 : Form
+//    {
+//bool jumping = false;
+//int pipeSpeed = 5;
+//    int gravity = 5
 
-namespace flappyBirdTutorial
-{
-publicpartialclassForm1 : Form
-    {
-bool jumping = false;
-int pipeSpeed = 5;
-    int gravity = 5
-
-}
+//}
