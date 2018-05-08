@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 552197176}
   - component: {fileID: 552197175}
   - component: {fileID: 552197174}
+  - component: {fileID: 552197177}
   m_Layer: 0
   m_Name: turtle
   m_TagString: Untagged
@@ -216,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   downSprite: {fileID: 21300002, guid: 635b8340bff4248d6a494b9b6d9ab7fa, type: 3}
   upSprite: {fileID: 21300000, guid: 635b8340bff4248d6a494b9b6d9ab7fa, type: 3}
+  jumpHeight: 10
 --- !u!212 &552197175
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -274,3 +276,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &552197177
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 552197173}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 2
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
